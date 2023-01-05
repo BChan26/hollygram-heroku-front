@@ -1,0 +1,181 @@
+#RegisterContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#RegisterInfo {
+  background-color: #b02221;
+	border-radius:20px;
+	padding:20px 40px 20px 38px;
+  color: #cfa97a;
+}
+
+#SignInInfo {
+  background-color: #b02221;
+	border-radius:20px;
+	padding:20px 56px 84px 58px;
+  color: #cfa97a;
+}
+
+.RegisterButtons, #LogOutButton, .delete-container, .button-styling {
+  color: #b02221;
+  background-color:#cfa97a ;
+}
+
+#RegisterInfoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#SignInContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#SignInInfoForm {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: flex-end;
+}
+
+#NavBarContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color:#cfa97a
+}
+
+#HollyGramLogo {
+  height: 100px;
+  width: auto;
+}
+
+#snowman {
+  height: 40px;
+  width: auto;
+}
+
+#FeedContent {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  
+}
+
+.FeedPosts, .SuggestionsForYou {
+  border:1px solid #cfa97a;
+  color:#cfa97a;
+  width: 40%;
+  height: auto;
+  margin: 0px 30px 0px 30px;
+}
+
+.IndividualFeedPosts, .IndividualProfileAndSuggestions {
+  border:1px solid #cfa97a;
+  color:#cfa97a;
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.postWrapper {
+  padding: 10px;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+
+.postTopLeft {
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+.postProfileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 40%;
+  object-fit: cover;
+}
+
+.postUsername {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+.postDate{
+    font-size: 12px;
+}
+
+.postCenter{
+    margin: 20px 0;
+}
+
+.postImg, .pics{
+    margin-top: 20px;
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;   
+}
+
+.likeIcon, .CommentIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.PostButtons {
+  border: 1px solid #cfa97a;
+  color: #cfa97a;
+  background-color: white;
+  font-size: 12px;
+}
+
+.postLikeCounter{
+    font-size: 15px;
+}
+
+.postCommentText{
+    /* cursor: pointer; */
+    border: 1px dashed #cfa97a;
+    font-size: 20px;
+}
+
+.Redirection {
+  color: #cfa97a;
+}
+
+.AllComments {
+  border-bottom: 1px solid #cfa97a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.App {
+  text-align: center;
+}
