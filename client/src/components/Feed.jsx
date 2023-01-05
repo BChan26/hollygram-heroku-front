@@ -17,7 +17,7 @@ const [users, setUsers] = useState([])
 
 useEffect(() => {
 const handleUsers = async () => {
-    const data = await fetch("https://holly-gram-backend-2-production.up.railway.app/user/allusers")
+    const data = await fetch("https://hollygrambackend.herokuapp.com/user/allusers")
     // console.log(data)
     const us = await data.json()
     setUsers(us)
@@ -32,7 +32,7 @@ handleUsers()
 // console.log(users)
 
 const handlePosts = async () => {
-    const post = await fetch("https://holly-gram-backend-2-production.up.railway.app/feed/")
+    const post = await fetch("https://hollygrambackend.herokuapp.com/feed/")
     // console.log(post)
 
     const postInJSON = await post.json()
@@ -50,7 +50,7 @@ handlePosts()
 
 //DELETING a post based on its ID
 const handleDeletePosts = async (postNumber) => {
-        const post = await axios.delete(`https://holly-gram-backend-2-production.up.railway.app/feed/${postNumber}`)
+        const post = await axios.delete(`https://hollygrambackend.herokuapp.com/feed/${postNumber}`)
         // window.location.reload()
         return (post)
         // console.log(postNumber)

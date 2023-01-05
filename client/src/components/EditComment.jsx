@@ -29,7 +29,7 @@ const [editComment, setEditComment] = useState(commentEdit)
 
     //axios call to update
     const editComments = async() => {
-        const post = await axios.put(`https://holly-gram-backend-2-production.up.railway.app/comment/${comment.id}/`, editComment)
+        const post = await axios.put(`https://hollygrambackend.herokuapp.com/comment/${comment.id}/`, editComment)
         console.log(post.data)
         setEditComment(post.data)
     }

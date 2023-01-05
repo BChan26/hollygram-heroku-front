@@ -62,7 +62,7 @@ event.preventDefault();
 //setAllComments changes the state of comments
 const [comments, setAllComments] = useState (null)
 const showComments = async() => {
-    const post = await axios.get(`https://holly-gram-backend-2-production.up.railway.app/comment/${postId}/`)
+    const post = await axios.get(`https://hollygrambackend.herokuapp.com/comment/${postId}/`)
     // console.log(post.data)
     setAllComments(post.data)
 }
